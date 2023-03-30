@@ -8,19 +8,21 @@ int main()
 	scanf("%d",&a);
 	scanf("%d",&b);
 	scanf("%d",&c);
-	if((a>60)&&(a<100))
+	if(a>=60 && a<100)
 	{
 		printf("1\n");
-	} 
+	}
 	else 
 	{
 		printf("0\n");
 	}
-	d=float(b+1)/10;
+	
+	d=(b+1)/10.0;
 	printf("%.2f\n",d);
-    if(a>c)
-    {
-    	printf("%d",a);
+	
+	if(a>c)
+	{
+		printf("%d",a);
 	}
 	else
 	{
